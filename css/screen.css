@@ -10,9 +10,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   color: #EEE;
   background: #111;
+  font-size: 22px; /* 18 / 16 =1.125 */
+  line-height: 22px; 
 }
 
 h1 {
   color: #900;
-
+  font-size: 32px;
 }
