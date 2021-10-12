@@ -11,6 +11,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 28px;
+  padding: 14px;
 }
 
 h1,
@@ -18,4 +19,14 @@ h2,
 h3,
 p {
   padding-bottom: 28px;
+}
+
+h1 {
+  font-size: 39.744px;
+  line-height: 42px; /* 28 * 1.5 = 42 */
+  padding-bottom: 48px;
+}
+
+a {
+  text-decoration: none;
 }
