@@ -7,8 +7,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-<<<<<<< HEAD
-=======
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -37,7 +35,7 @@ a {
 .g body { position: relative; }
 
 .g body::after {
-  background: url('data:image/svg+xml;utf8,<svg height="27" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left; 
+  background: url('data:image/svg+xml;utf8,<svg height="27" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
   content: "";
   display: block;
   pointer-events: none;
@@ -49,4 +47,3 @@ a {
   position: absolute; }
 
 .g body:active::after { display: none; }
->>>>>>> cdb0cb7bb0802c03581e07d9079d5c999baf4395
