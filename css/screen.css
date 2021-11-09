@@ -9,14 +9,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  line-height: 28px;
-  padding: 14px;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 22px;
+  background-color: #CCC;
 }
 
-h1,
-h2,
-h3,
+h2 {
+  font-size: 29.744px;
+  line-height: 36.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+h3 {
+    font-size: 25.744px;
+    padding-bottom: 10.04px;
+    padding-top: 10.04px;
+}
+
 p {
   padding-bottom: 28px;
 }
@@ -31,6 +42,14 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: square outside none;
+}
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
 .g body { position: relative; }
 
