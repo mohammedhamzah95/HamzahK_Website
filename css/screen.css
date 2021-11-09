@@ -7,6 +7,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -16,8 +19,8 @@ html {
 }
 
 h1 {
-  font-size: 39.744px;
-  line-height: 42px; /* 28 * 1.5 = 42 */
+  font-size: 32.7004px;
+  line-height: 36px; /* 28 * 1.5 = 42 */
   padding-bottom: 28px;
 }
 
@@ -45,6 +48,7 @@ img {
 
 figcaption {
   font-size: 12.3px;
+  background: rgba(20,20,20,0,8);
 }
 
 ul {
