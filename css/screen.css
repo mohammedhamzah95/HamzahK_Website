@@ -46,6 +46,11 @@ img {
 
 ul {
   list-style: square outside none;
+  padding-bottom: 28px;
+}
+
+footer {
+  align-content: flex-end;
 }
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
 .g body { position: relative; }
