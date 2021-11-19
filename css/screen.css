@@ -10,9 +10,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 * {
   box-sizing: border-box;
 }
+
+/* == HEADINGS ==*/
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 18px;
   line-height: 22px;
   padding: 22px;
   background-color: #FFEBCD;
@@ -20,24 +22,35 @@ html {
 
 h1 {
   display: flex;
-  font-size: 32.7004px;
-  line-height: 36px; /* 28 * 1.5 = 42 */
-  padding-bottom: 28px;
+  font-family: Times New Roman;
+  font-size: 32.7004px; /* 18 * 1.82  = 32.7004px */
+  line-height: 36px; /* 22 * 1.64 = 36px */
+  padding: 28px;
   justify-content: center;
+  background-color: #FFDEAD;
 }
 
-h2 {
-  font-size: 28.744px;
+h2 {0.
+  font-size: 28.744px; /* 18 * 1.49 = 28.744px */
   line-height: 36px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 h3 {
-  font-size: 25.744px;
+  font-size: 25.744px; /* 18 * 1.43 = 25.744px */
   padding: 10.04px;
 }
 
+/* == NAVIGATION MENU */
+.navi {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  background-color: #FFDEAD;
+}
+
+/* == CONTENT == */
 p {
   padding-bottom: 28px;
 }
@@ -57,17 +70,12 @@ ul {
   list-style: square outside none;
 }
 
+/* == FOOTER == */
 footer {
   align-content: flex-end;
   font-size: 12.03px;
 }
 
-.navi {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  background-color: #FFDEAD;
-}
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
 .g body { position: relative; }
 
