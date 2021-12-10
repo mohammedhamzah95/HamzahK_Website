@@ -15,7 +15,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* == HEADINGS ==*/
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%;
   line-height: 22px;
   padding: 22px;
   background-color: #FFEBCD;
@@ -24,16 +23,16 @@ html {
 h1 {
   display: flex;
   font-family: Times New Roman;
-  font-size: 32.7004px; /* 18 * 1.82  = 32.7004px */
+  font-size: 32.7004px;
   font-weight: bold;
-  line-height: 36px; /* 22 * 1.64 = 36px */
+  line-height: 36px;
   padding: 28px;
   justify-content: center;
   background-color: #FFDEAD;
 }
 
 h2 {
-  font-size: 28.744px; /* 18 * 1.76 = 28.744px */
+  font-size: 28.744px;
   font-weight: bold;
   line-height: 36px;
   padding-bottom: 2px;
@@ -41,35 +40,13 @@ h2 {
 }
 
 h3 {
-  font-size: 21.78px; /* 18 * 1.21 = 21.78px */
+  font-size: 21.78px;
   font-weight: bold;
   padding: 10.04px;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-around;
-}
-
-.cat {
-  height: 50%;
-  width: 80%;
-  float: center;
-  padding-right: 5%;
-}
-
-.cat_caption {
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 100px;
-}
-
-.funfacts p {
-font-size: 100px;
-}
-
-.fall_classes p{
-  font-size: 40px;;
+nav {
+  font-size: 22px;
 }
 /* == CONTENT == */
 p {
@@ -99,6 +76,32 @@ footer {
   align-content: flex-end;
   font-size: 12.03px;
   padding: 100px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat {
+  height: 50%;
+  width: 80%;
+  float: center;
+  padding-right: 5%;
+}
+
+.cat_caption {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+}
+
+.funfacts p {
+font-size: 100px;
+}
+
+.fall_classes p{
+  font-size: 40px;;
 }
 
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
