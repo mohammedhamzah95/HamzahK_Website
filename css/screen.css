@@ -46,8 +46,9 @@ h3 {
   padding: 10.04px;
 }
 
-#navigation {
+.navigation {
     display: flex;
+    justify-content: space-between;
 }
 
 /* == CONTENT == */
