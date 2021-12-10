@@ -7,6 +7,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+@media all and (min-width: 50px) {
 * {
   box-sizing: border-box;
 }
@@ -94,3 +95,4 @@ footer {
 }
 
 .g body:active::after { display: none; }
+}
