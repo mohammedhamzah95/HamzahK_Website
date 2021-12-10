@@ -24,7 +24,7 @@ html {
 h1 {
   display: flex;
   font-family: Times New Roman;
-  font-size: 48px; /* 18 * 1.82  = 32.7004px */
+  font-size: 32.7004px; /* 18 * 1.82  = 32.7004px */
   font-weight: bold;
   line-height: 36px; /* 22 * 1.64 = 36px */
   padding: 28px;
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px; /* 18 * 1.76 = 28.744px */
+  font-size: 28.744px; /* 18 * 1.76 = 28.744px */
   font-weight: bold;
   line-height: 36px;
   padding-bottom: 2px;
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px; /* 18 * 1.21 = 21.78px */
+  font-size: 21.78px; /* 18 * 1.21 = 21.78px */
   font-weight: bold;
   padding: 10.04px;
 }
@@ -69,7 +69,7 @@ font-size: 100px;
 }
 
 .fall_classes p{
-  font-size: 100%;
+  font-size: 40px;;
 }
 /* == CONTENT == */
 p {
