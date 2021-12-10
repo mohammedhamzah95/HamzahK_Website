@@ -47,11 +47,13 @@ h3 {
 }
 
 .navigation {
+    display: flex;
+    justify-content: space-around;
 }
 
 .cat {
-  height: 50%;
-  width: 80%;
+  height: 50em;
+  width: 40em;
   float: center;
   padding-right: 5%;
 }
@@ -76,6 +78,8 @@ p {
 }
 
 img {
+  height: 50px;
+  weight: 80px;
   display: block;
   max-width: 100%;
   padding: 10px;
